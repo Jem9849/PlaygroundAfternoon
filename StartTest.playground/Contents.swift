@@ -39,7 +39,6 @@ while (beenHere == false)
     else
     {
        beenHere = true
-       nameOfWho = "stop"
       var countName :Int
      countName = nameOfWho.characters.count
      print("\(nameOfWho) is  \(countName)  in length. That, times 5 is  \(countName * 5)")
