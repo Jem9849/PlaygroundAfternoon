@@ -1,5 +1,6 @@
 //: Playground - noun: a place where people can play
 
+/*
 import UIKit
 
 var str = "Olleh, dnuorgyalp"
@@ -15,19 +16,38 @@ if (6 > 3)
 }
 
 var thisName :String = "roht"
+*/
 ///////////////////////////////////// String Testing
 
-var nameOfWho :String
-nameOfWho = "anonymous"
+var nameOfWho :String = "anonymous"
 
-if (nameOfWho == "anonymous")
+var beenHere = false
+
+while (nameOfWho.characters.count > 5 && beenHere == false )
 {
-    print("Enter a name.")
-    nameOfWho = readLine()
-    countName = nameOfWho.count
+    if (nameOfWho == "anonymous")
+    {
+        print("Enter a name of four letters.")
+         var temp = readLine()
+        if(temp != nil)
+        {
+            nameOfWho = temp!
+        }
+       
+    }
+        
+    else
+    {
+       beenHere = true
+       nameOfWho = "stop"
+      var countName :Int
+     countName = nameOfWho.characters.count
+     print("\(nameOfWho) is  \(countName)  in length. That, times 5 is  \(countName * 5)")
+    }
 }
 
-else
-{
-    print(nameOfWho "is " + countName + " in length." "That times 5 is " \(countName * 5)
-}
+var age = 2315
+var speed = 654.324536
+var rate = age/Int (speed)
+
+print(rate)
