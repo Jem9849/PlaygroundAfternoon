@@ -23,7 +23,7 @@ var nameOfWho :String = "anonymous"
 
 var beenHere = false
 
-while (nameOfWho.characters.count > 5 && beenHere == false )
+while (beenHere == false)
 {
     if (nameOfWho == "anonymous")
     {
