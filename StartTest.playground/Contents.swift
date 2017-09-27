@@ -19,7 +19,7 @@ var thisName :String = "roht"
 */
 ///////////////////////////////////// String Testing
 
-var nameOfWho :String = "anonymous"
+/*var nameOfWho :String = "anonymous"
 
 var beenHere = false
 
@@ -44,9 +44,11 @@ while (beenHere == false)
      print("\(nameOfWho) is  \(countName)  in length. That, times 5 is  \(countName * 5)")
     }
 }
-
+*/
 var age = 2315
 var speed = 654.324536
 var rate = age/Int (speed)
 
 print(rate)
+
+
