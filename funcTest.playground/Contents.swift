@@ -1,6 +1,55 @@
 
 import UIKit
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*public func isReallySimple() -> Void
 {
     print("RAWR I AM BIG CWEEPY SCAREH BEAR CAT MUNSTER. I WILL STAB U FOR YOUR OWN GOOD. YAY!")
@@ -48,5 +97,6 @@ while (test < age())
 
 print("If you have got here then you suck, and should of let it keep runnning.")
  */
+
 
 
