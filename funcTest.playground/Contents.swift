@@ -45,6 +45,16 @@ public class OtherClass
         self.favoriteWord += " and more and more."
     }
     
+    public func getFavoriteNumber() -> Int
+    {
+        return self.favoriteNumber
+    }
+    
+    public func getFavoriteWord() -> String
+    {
+        return self.favoriteWord
+    }
+    
 }
 
 // Java would be OtherClass sample = new OtherClass(); It is also not = OtherClass.init()
@@ -53,7 +63,7 @@ var thirdSample = OtherClass(favoriteNumber: 87343, favoriteWord: "Steb")
 secondClass.changeInternalState()
 thirdSample.changeInternalState()
 thirdSample.changeInternalState()
-
+print(thirdSample.getFavoriteWord())
 
 
 
