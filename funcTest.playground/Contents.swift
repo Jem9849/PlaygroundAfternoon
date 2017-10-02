@@ -1,7 +1,18 @@
 
 import UIKit
 
+var notesToday = "Using SWIEFT faire classes and methods."
 
+public class SimpleClass
+{
+    private var nem :String
+    
+    public init()
+    {
+        nem = "ORGAMI WRYYYYYYYYYY"
+    }
+    
+}
 
 
 
