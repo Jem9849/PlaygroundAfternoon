@@ -108,6 +108,9 @@ print(thirdSample.getFavoriteWord())
 
 
 
+
+
+
 /*public func isReallySimple() -> Void
 {
     print("RAWR I AM BIG CWEEPY SCAREH BEAR CAT MUNSTER. I WILL STAB U FOR YOUR OWN GOOD. YAY!")
